@@ -1,9 +1,10 @@
+const listTitleElement = document.getElementById("titel");
+const listTitle = document.createElement("h3");
+listTitle.textContent = "Tv merken"
+
+listTitleElement.appendChild(listTitle)
+
 const megaList = document.getElementById('lijst');
-
-const listTitle = document.createElement('h3');
-listTitle.textContent = "Brand names"
-
-megaList.appendChild(listTitle)
 
 inventory.map((listTvs) => {
     const newList = document.createElement('li');
@@ -11,3 +12,6 @@ inventory.map((listTvs) => {
 
     return megaList.appendChild(newList)
 })
+
+const emptySpace = document.createElement('br')
+megaList.appendChild(emptySpace)

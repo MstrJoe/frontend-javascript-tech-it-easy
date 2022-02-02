@@ -1,7 +1,12 @@
 #result-color{
-    color: greenyellow;
+    color: seagreen;
 }
 
 #output-color{
     color: blue;
 }
+
+#whatsLeft-color{
+    color: red;
+}
+
